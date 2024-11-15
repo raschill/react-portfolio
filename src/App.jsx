@@ -1,20 +1,20 @@
 // Uncomment once components have been built
 
-import React from "react";
-import Header from '../Header';
-import About from '../About';
-import Portfolio from '../Portfolio';
-import Contact from '../Contact';
-import Footer from '../Footer';
-import Navbar from '../Nav';
-import Resume from '../Resume';
+//import React from "react";
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Navbar from './components/Nav';
+import Resume from './components/Resume';
 
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <About />
       <Portfolio />

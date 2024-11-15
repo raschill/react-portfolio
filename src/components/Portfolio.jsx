@@ -1,5 +1,4 @@
-import React from 'react-router';
-import Projects from '..components/Project';
+// import Projects from './Project';
 
 export default function Portfolio() {
     return(
@@ -24,17 +23,5 @@ export default function Portfolio() {
                 <img src="../assets/Icon4.webp" alt="README Generator" height="350px" width="350px"/></a>
                 <p>Landlordr</p>
             </div>
-     
-
-
-<h1>Work</h1>
-
-<Wrapper id="project">
-  {work.map((project => (
-    <Projects key={project.id} style={project.style} image={project.image} name={project.name}/>
-    )))
-    };          
-  </Wrapper>
-</section>
-    );
-}
+     </section>
+)}
